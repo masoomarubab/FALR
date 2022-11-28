@@ -89,7 +89,7 @@ const OpenedSidebar = () => {
 
                 <li className="menu-next-list">
                     <a href="#" onClick={handleDropdownDisplay}>
-                        <i className="fa fa-award"></i><span>Icons</span> <i className="arrow down"></i>
+                        <i className="fa fa-trophy"></i><span>Icons</span> <i className="arrow down"></i>
                     </a>
                     <ul className="opened-navbar-dropdown">
                         <li><a href="#">Font Awesome</a></li>
@@ -157,7 +157,7 @@ const OpenedSidebar = () => {
                 <li className="menu-next-title">pages</li>
                 <li className="menu-next-list">
                     <a href="#" onClick={handleDropdownDisplay}>
-                        <i className="fa fa-user-friends"></i><span>Session</span> <i className="arrow down"></i>
+                        <i className="fa fa-users"></i><span>Session</span> <i className="arrow down"></i>
                     </a>
                     <ul className="opened-navbar-dropdown">
                         <li><a href="#">Login</a></li>
