@@ -83,6 +83,7 @@ const ProductTable = () => {
                         ProductTableData.map(({ index, OrderID, CustomerName, Product, ProductDate, Price, Status, BadgeClass }) => (
                             <tr key={index}>
                                 <td>{OrderID}</td>
+                                <td>===</td>
                                 <td>{CustomerName}</td>
                                 <td>{Product}</td>
                                 <td>{ProductDate}</td>
